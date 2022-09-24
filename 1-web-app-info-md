@@ -1,0 +1,14 @@
+
+
+1.  go to the portal.azure.com
+2.  then click create resources
+3.  search for Web App
+4.  select resource group / java 11 / SE and all / service plan as West Europe
+
+5.  then after that you can go to the resource group and check it out your Web App 
+    there in web app there were lot of option like : brouse / logs you can check 
+    / configuration / start and stop web app
+
+6.  in deployment center you can check how you want to deploy your code 
+    like from GitHub, Azure Repos, CI/CD pipeline
+

@@ -1,0 +1,32 @@
+
+https://github.com/VijayPatil1602/deploy-spring-boot-to-azure
+
+App Service Plans
+	Choosing the right service plan is a key decision in optimizing the cost 
+with Azure App Service.
+
+	F1(free), B1(Basic 1), B2(Basic 2), B3(Basic 3)
+		depends on CPU, Memory, Cost
+
+	in web app resource that you created search "up" you will see
+	Scale Up (App Service Plan) option.
+
+**** One of the most important things that we need to understand about an App Service
+     Plan, is the fact that it can be shared by multiple applications.
+
+     So, lets say you have a 5 different applications that you want to deploy
+     You can put all of them under a single App Service Plan. With an App Service
+     Plan, you'd pay for the computing resources as soon as you allocate them.
+
+     So it really makes sense that you make optimum use of the resources you have
+     allocated for yourself.
+
+     Having multiple applications as part of the same App Service Plan, makes sure
+     that you are actually making complete use of all the resources that are
+     allocated under your app service plan.
+
+     As long as there are enough resources in your app service plan which are vacant,
+     
+
+
+

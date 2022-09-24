@@ -1,0 +1,56 @@
+
+https://github.com/VijayPatil1602/deploy-spring-boot-to-azure
+
+
+1st project 
+	01-hello-world-rest-api
+		we will deploy it as a JAR file
+
+2nd project
+	02-todo-web-application-h2
+		we will diploy it as a WAR file
+		we are using H2 database here
+
+
+
+WebApps :>
+	Azure Web Apps helps you to get easily started with the cloud and it
+helps you deploy web applications very very easily into Azure.
+	Azure web apps helps us to deploy a variety of applications on a variety
+of platforms. you can deploy applications to Tomcat, you can run java application,
+python applications, NodeJS applications, and a variety of other apps as well
+
+
+
+portal.azure.com
+
+--> got to the create resource
+--> like we want to create web app so search for web app and then create the web app
+--> create new resource group
+--> select java version
+--> select java SE
+--> region West Europe
+
+
+once your web app is created then you can see FTP there
+The FTP host details would be useful when you would want to
+deploy a new version of the application using FTP. Let's say, you would want to directly
+copy the deployable unit into the server where our application is deployed.
+Thats where your published profile and the FTP details will be really usefull
+
+
+** if you want to deploy a new version of application then  you can go to the
+   deployment center
+
+** if you want to deploy multiple environments for the same application then you can
+   go to the Deployment Slots
+
+** if you want to see logs like whats happening behind the application then can search
+   log in resources ( web app ) that we created. there is Log Stream and App Service Logs
+   by default they are switch off you can turm them on by going into the app service logs 
+   settings.
+
+** Configuration: you might want to configure something around the application.
+   So, you might want to configure an environment variable or something of that kind
+   so, in that kind of situation, you can go to configuration. Configuration is present
+   in the settings part of the menu.

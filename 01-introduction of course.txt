@@ -1,0 +1,24 @@
+
+https://github.com/VijayPatil1602/deploy-spring-boot-to-azure
+
+
+1st project 
+	01-hello-world-rest-api
+		we will deploy it as a JAR file
+
+2nd project
+	02-todo-web-application-h2
+		we will diploy it as a WAR file
+		we are using H2 database here
+
+
+
+WebApps :>
+	Azure Web Apps helps you to get easily started with the cloud and it
+helps you deploy web applications very very easily into Azure.
+	Azure web apps helps us to deploy a variety of applications on a variety
+of platforms. you can deploy applications to Tomcat, you can run java application,
+python applications, NodeJS applications, and a variety of other apps as well
+
+
+

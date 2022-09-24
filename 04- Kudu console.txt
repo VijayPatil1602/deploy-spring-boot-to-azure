@@ -1,0 +1,13 @@
+
+https://github.com/VijayPatil1602/deploy-spring-boot-to-azure
+
+
+https://first-azure-app-vijay-p.scm.azurewebsites.net/
+Kudu Console : 
+	KUDU console helps you to debug application
+	It gives you access to the logs, you can do a SSH into the environment,
+	you can get Bash command where you would actually type in commands and 
+	get information about the environment as well.
+
+	here you can check SSH, bash, Enrironment , log files
+	
